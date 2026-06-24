@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="" onsubmit="return false;">
+        <input type="number" name="amount" id="amount" placeholder="Amount" value="1">
+        <select id="fromCurrency">
+            <option value="USD" selected> USD-Dollar</option>
+            <option value="SAR"> SAR-Saudi Riyal</option>
+            <option value="EGP">EGP-Egyptian Pound</option>
+        </select>
+
+        <span>To</span>
+        <select id="toCurrency">
+            <option value="USD">USD-Us Dollar</option>
+            <option value="SAR">SAR-Saudi Riyal</option>
+            <option value="EGP" selected>EGP-Egyptian Pound</option>
+        </select>
+
+        <div class="result">Result will appear here</div>
+    </form>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
